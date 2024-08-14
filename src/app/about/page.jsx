@@ -58,7 +58,7 @@ const AboutPage = () => {
 
                         {/* BIOGRAPHY QUOTE */}
                         <span className="italic">
-                            "With a deep foundation in computer science and a passion for innovative solutions, I strive to blend technical expertise in JavaScript, React, and NextJS with a commitment to excellence, driving impactful projects and continuous growth."
+                            With a deep foundation in computer science and a passion for innovative solutions, I strive to blend technical expertise in JavaScript, React, and NextJS with a commitment to excellence, driving impactful projects and continuous growth.
                         </span>
                         {/* BIOGRAPHY SIGN SVG*/}
                         <div className="self-end">
@@ -162,7 +162,7 @@ const AboutPage = () => {
                                     </div>
                                     {/* JOB DESC */}
                                     <div className="p-2 text-sm italic">
-                                        "Contributed to digitalizing railway operations, managing daily activities, maintaining records, and optimizing resources through MIS."{" "}
+                                        Contributed to digitalizing railway operations, managing daily activities, maintaining records, and optimizing resources through MIS.{" "}
                                     </div>
                                     {/* JOB DATE */}
                                     <div className="p-2 text-red-400 text-sm font-semibold">
@@ -201,7 +201,7 @@ const AboutPage = () => {
                                     </div>
                                     {/* JOB DESC */}
                                     <div className="p-2 text-sm italic">
-                                        "Led the development of React applications, utilizing advanced skills to create efficient and dynamic solutions."{" "}
+                                        Led the development of React applications, utilizing advanced skills to create efficient and dynamic solutions.{" "}
                                     </div>
                                     {/* JOB DATE */}
                                     <div className="p-2 text-red-400 text-sm font-semibold">
