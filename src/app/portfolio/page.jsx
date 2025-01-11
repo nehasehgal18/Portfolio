@@ -7,11 +7,19 @@ import { useRef } from "react";
 const items = [
     {
         id: 1,
-        color: "from-red-300 to-blue-300",
+        color: "from-pink-300 to-red-300",
         title: "Countries API",
         desc: "Developed a dynamic web application by integrating external RESTful APIs to fetch and display country-specific data. Utilized JavaScript to handle API requests, process responses, and update the DOM. Implemented search functionality, filtering options, and dark mode. Added robust error handling, conducted cross-browser testing, and optimized performance for faster load times.",
         img: "/CountryApi.png",
         link: "https://nehasehgal18.github.io/APICountry/",
+    },
+    {
+        id: 5,
+        color: "from-red-300 to-blue-300",
+        title: "TO-DO APP",
+        desc: "Developed a responsive To-Do app using React, incorporating essential features such as task addition, deletion, and real-time status updates. The app boasts a clean and intuitive user interface, ensuring a seamless experience for users. I focused on optimizing both performance and usability by implementing responsive design principles.",
+        img: "/todo.png",
+        link: "https://nehasehgal18.github.io/To-Do-App-React/",
     },
     {
         id: 2,
@@ -84,7 +92,7 @@ const PortfolioPage = () => {
                 </div>
             </div>
             <div className="w-screen h-screen flex flex-col gap-6 items-center justify-center text-center">
-                <h1 className="text-5xl">Do you have a project?</h1>
+                <h1 className="text-5xl">Do you have any project?</h1>
                 <div className="relative">
                     <motion.svg
                         animate={{ rotate: 360 }}
