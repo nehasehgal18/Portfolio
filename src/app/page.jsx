@@ -8,10 +8,10 @@ const Homepage = () => {
       <div className='h-full flex flex-col md:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48'>
         {/* IMAGE CONTAINER */}
         <div className='h-1/2 md:h-full md:w-1/2 relative'>
-          <Image src='/Ne.png' alt='' fill className='object-contain max-w-[93%]' />
+          <Image src='/Ne.png' alt='' fill className='object-contain max-w-[93%] max-h-[90%]' />
         </div>
         {/* TEXT CONTAINER */}
-        <div className='h-1/2 md:h-full md:w-1/2 flex flex-col gap-5 items-center justify-center'>
+        <div className='h-1/2 md:h-full md:w-1/2 flex flex-col gap-5 items-center justify-center pt-16'>
           {/* TITLE */}
           <h1 className=' text-2xl md:text-3xl font-bold'>Turning Data Into Decisions, Designing Tomorrow</h1>
           {/* DESC */}
