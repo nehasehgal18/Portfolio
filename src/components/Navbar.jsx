@@ -90,13 +90,13 @@ const Navbar = () => {
                 <Link href="https://www.facebook.com/login.php/">
                     <Image src="/facebook.png" alt="" width={24} height={24}></Image>
                 </Link>
-                <Link href="https://leetcode.com/">
+                <Link href="https://leetcode.com/u/sehgalnehans01/">
                     <Image src="/leetcode-logo.png" alt="" width={24} height={24}></Image>
                 </Link>
                 <Link href='https://www.instagram.com/neha_sehgal18/'>
                     <Image src='/instagram.png' alt='' width={24} height={24} />
                 </Link>
-                <Link href='https://www.linkedin.com/in/neha-s-b7b4b6249/'>
+                <Link href='https://www.linkedin.com/in/neha-sehgal18/'>
                     <Image src='/linkedin.png' alt='' width={24} height={24} />
                 </Link>
             </div>

@@ -16,7 +16,7 @@ const AboutPage = () => {
     const experienceRef = useRef();
     const isExperienceRefInView = useInView(experienceRef, { margin: "-100px" });
 
-    const skillLists = ['HTML5', 'CSS3', 'JavaScript', 'React.JS', 'Redux', 'Next.JS', 'TailWind CSS', 'Postgre SQL', 'GitHub']
+    const skillLists = ['Python', 'SQL', 'Power BI', 'Statistical Data Analysis', 'Predictive Modeling', 'Machine Learning Libraries', 'Python Libraries', 'Scikit-Learn', 'Seaborn', 'Matplotlib', 'NumPy', 'Pandas', 'BeautifulSoup', 'MS Excel', 'HTML5', 'CSS3', 'JavaScript', 'React.JS', 'Redux', 'Next.JS', 'TailWind CSS', 'Postgre SQL', 'GitHub']
 
 
     return (
@@ -44,22 +44,26 @@ const AboutPage = () => {
                         <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
                         {/* BIOGRAPHY DESC */}
                         <p className="text-lg">
-                            Neha Sehgal is a passionate and skilled computer science professional, recently completed her graduation in Bachelor of Technology in Computer Science and Engineering from Dr. Akhilesh Das Gupta Institute of Professional Studies in New Delhi with 96%. Her strong academic foundation was built at Arwachin Bharti Bhawan Senior Secondary School in Vivek Vihar, Delhi, where she excelled in both her high school and intermediate studies. She is a motivated front-end developer with expertise in React.js and Next.js, specializing in creating dynamic, responsive web applications. She is proficient in writing clean, efficient code and optimizing user interfaces for performance. She is passionate about frontend development and dedicated to building intuitive and user-friendly web solutions.
+                            Neha Sehgal is a passionate computer science professional who recently graduated with distinction, earning a Bachelor of Technology in Computer Science and Engineering from Dr. Akhilesh Das Gupta Institute of Technology & Management, New Delhi, with an impressive 96%. Her academic journey began at Arwachin Bharti Bhawan Senior Secondary School, where she consistently excelled in her studies.
+                            <br></br> <br></br>
+                            Driven by a deep curiosity for data and its impact on decision-making, Neha specializes in data analysis and visualization, with strong skills in SQL, Python, Excel, and BI tools like Tableau and Power BI. She is adept at transforming raw data into meaningful insights, building interactive dashboards, and uncovering trends to support business strategies. Her analytical mindset and attention to detail allow her to draw actionable conclusions and tell compelling data stories.
 
                             <br />
                             <br />
-                            Neha gained valuable industry experience as a Trainee Intern at the Centre for Railway Information Systems (CRIS) in New Delhi, where she contributed to the computerization of coaching operations for Indian Railways. Her work involved managing day-to-day operational activities, maintaining computerized records, and generating crucial MIS reports to optimize resource utilization.
+                            Neha gained valuable industry experience as a Data Analyst Intern at the Centre for Railway Information Systems (CRIS) in New Delhi, where she contributed to the computerization of coaching operations for Indian Railways. Her work involved managing day-to-day operational activities, maintaining computerized records, and generating crucial MIS reports to optimize resource utilization.
+                            <br></br><br></br>
+                            As a research analyst at Ingenetus, I conducted market research on diverse financial products and used Python and data analytics tools to develop predictive models, leading to a 12% improvement in portfolio returns. By analyzing market trends and customer preferences, I generated comprehensive reports and insights, driving a 25% increase in customized investment solutions and a 15% rise in client retention. My work contributed to data-driven decision-making, optimizing investment strategies and enhancing overall business performance.
                             <br />
                             <br />
-                            In addition to her internship, Neha has worked on several innovative technical projects. She developed an Electronic Voting System based on Blockchain Technology, aimed at enhancing electoral integrity and voter data security. She also created a Stress Detection System for IT Professionals, utilizing machine learning algorithms to monitor and reduce stress levels in the workplace.
+                            In addition to her internships, Neha has worked on several innovative technical projects. She developed an Electronic Voting System based on Blockchain Technology, aimed at enhancing electoral integrity and voter data security. She also created a Stress Detection System for IT Professionals, utilizing machine learning algorithms to monitor and reduce stress levels in the workplace.
                             <br />
                             <br />
-                            Neha’s portfolio includes various web development projects. These projects demonstrate her proficiency in JavaScript, as well as her experience with frameworks like React and Redux and library like NextJS.
+                            {/* Neha’s portfolio includes various web development projects. These projects demonstrate her proficiency in JavaScript, as well as her experience with frameworks like React and Redux and library like NextJS. */}
                         </p>
 
                         {/* BIOGRAPHY QUOTE */}
                         <span className="italic">
-                            With a deep foundation in computer science and a passion for innovative solutions, I strive to blend technical expertise in JavaScript, React, and NextJS with a commitment to excellence, driving impactful projects and continuous growth.
+                            With a strong foundation in computer science and a passion for data-driven solutions, Neha combines technical expertise in Python, SQL, and data visualization tools with a commitment to delivering actionable insights, driving impactful outcomes and continuous growth.
                         </span>
                         {/* BIOGRAPHY SIGN SVG*/}
                         <div className="self-end">
@@ -159,11 +163,12 @@ const AboutPage = () => {
                                 <div className="w-1/3 ">
                                     {/* JOB TITLE */}
                                     <div className="bg-white p-2 font-semibold rounded-b-lg rounded-s-lg text-center">
-                                        Trainee Intern at CRIS
+                                        Data Analyst Intern (CRIS)
                                     </div>
                                     {/* JOB DESC */}
                                     <div className="p-2 text-sm italic">
-                                        Contributed to digitalizing railway operations, managing daily activities, maintaining records, and optimizing resources through MIS.{" "}
+                                        Streamlined data workflows using Excel, SQL, and Python, ensuring accuracy and reducing manual effort in
+                                        operational tasks.{" "}
                                     </div>
                                     {/* JOB DATE */}
                                     <div className="p-2 text-red-400 text-sm font-semibold">
@@ -198,15 +203,15 @@ const AboutPage = () => {
                                 <div className="w-1/3 ">
                                     {/* JOB TITLE */}
                                     <div className="bg-white p-2 font-semibold rounded-b-lg rounded-s-lg text-center">
-                                        React Developer
+                                        Research Analyst (INGENETUS)
                                     </div>
                                     {/* JOB DESC */}
                                     <div className="p-2 text-sm italic">
-                                        Led the development of React applications, utilizing advanced skills to create efficient and dynamic solutions.{" "}
+                                        Analyzed market trends to drive a 25% rise in customized investment solutions and a 15% improvement in overall client retention.{" "}
                                     </div>
                                     {/* JOB DATE */}
                                     <div className="p-2 text-red-400 text-sm font-semibold">
-                                        2023 - 2024{" "}
+                                        April 2024 - May 2024{" "}
                                     </div>
 
                                 </div>
@@ -217,12 +222,11 @@ const AboutPage = () => {
                                 <div className="w-1/3 ">
                                     {/* JOB TITLE */}
                                     <div className="bg-white p-2 font-semibold rounded-b-lg rounded-s-lg text-center">
-                                        Freelancer{" "}
+                                        Chegg Expert{" "}
                                     </div>
                                     {/* JOB DESC */}
                                     <div className="p-2 text-sm italic">
-                                        I provided web solutions, applying a range of technologies
-                                        to address client requirements.{" "}
+                                        Solve student queries with academic integrity, ensuring clarity, accuracy, and high-quality presentation in every response.{" "}
                                     </div>
                                     {/* JOB DATE */}
                                     <div className="p-2 text-red-400 text-sm font-semibold">
