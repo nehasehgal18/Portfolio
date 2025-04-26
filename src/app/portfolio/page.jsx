@@ -23,6 +23,14 @@ const items = [
         link: "https://github.com/nehasehgal18/SmartElectionsPythonML",
     },
     {
+        id: 12,
+        color: "from-red-500 to-orange-500",
+        title: "Stress Detection with Real-Time Emotions",
+        desc: "Developed a real-time emotion and stress detection system using machine learning and webcam facial analysis. Implemented a model to classify emotions like anger, fear, and sadness, categorizing stress levels accordingly. Leveraged Python, OpenCV, and Keras for model training and real-time emotion detection, offering personalized activity suggestions based on user stress levels. Ensured smooth performance and responsiveness for real-time interaction.",
+        img: "/stress.jpg",
+        link: "https://github.com/nehasehgal18/Stress_Detection",
+    },
+    {
         id: 8,
         color: "from-pink-300 to-red-300",
         title: "Pizza Data Analysis",

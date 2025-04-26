@@ -15,7 +15,7 @@ const Homepage = () => {
           {/* TITLE */}
           <h1 className=' text-2xl md:text-3xl font-bold'>Turning Data Into Decisions, Designing Tomorrow</h1>
           {/* DESC */}
-          <p className='md:text-lg'>Welcome to my analytical space — where numbers tell stories and insights drive impact. With a sharp eye for patterns and a strong foundation in data tools and techniques, my portfolio showcases a range of projects that reflect my ability to transform raw data into meaningful insights. From dashboards to predictive models, every piece reflects my commitment to clarity, precision, and actionable outcomes.</p>
+          <p className='md:text-lg'>Welcome to my analytical space, where data meets design and insights drive action. With expertise in data analysis and frontend development, I transform complex data into clear, impactful stories. My work spans predictive models, dashboards, and user-friendly web interfaces. I bridge raw data and real-world solutions, focusing on clarity and results.</p>
           {/* BUTTONS */}
           <div className='w-full flex gap-4'>
             <Link href='/portfolio'><button className='p-1 md:p-4 rounded-lg ring-1 ring-black bg-black text-white'>View My Work</button> </Link>
